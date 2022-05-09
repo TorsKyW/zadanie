@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zadanie</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+	<center>
+	<header>
+		<center>
+			<div id="fp">
+				FORMULARZE
+			</div>
+			<a href="index.html">
+				<button class="menu">Formularz 1</button>
+			</a>
+			<a href="formularz2.html">
+				<button class="menu">Formularz 2</button>
+			</a>
+			<a href="formularz3.html">
+				<button class="menu">Formularz 3</button>
+			</a>
+			<a href="formularz4.html">
+				<button class="menu">Formularz 4</button>
+			</a>
+			<a href="formularz5.html">
+				<button class="menu" id="bj">Formularz 5</button>
+			</a>
+			<a href="formularz6.html">
+				<button class="menu">Formularz 6</button>
+			</a>
+		</center>
+	</header>
+	</center>
+    <center>
+		<div id="fj">
+			<form method="post" enctype="text/plain">
+				Wybierz owoc:<br />
+				<input type="text" name="owoc" value="" list="owoce">
+                <datalist id="owoce">
+                    <option value="Jabłko">Jabłko</option>
+                    <option value="Ananas">Ananas</option>
+                    <option value="Gruszka">Gruszka</option>
+                    <option value="Winogrono">Winogrono</option>
+                    <option value="Banan">Banan</option>
+                </datalist>
+                <br /><br />
+                <input class="button" type="submit" name="wyslij" value="Wyślij" />
+				<input class="button" type="reset" name="wyczysc" value="Wyczyść " />
+			</form>
+		</div>
+	</center>

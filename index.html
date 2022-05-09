@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zadanie</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+	<center>
+	<header>
+		<center>
+			<div id="fp">
+				FORMULARZE
+			</div>
+			<a href="index.html">
+				<button class="menu" id="bj">Formularz 1</button>
+			</a>
+			<a href="formularz2.html">
+				<button class="menu">Formularz 2</button>
+			</a>
+			<a href="formularz3.html">
+				<button class="menu">Formularz 3</button>
+			</a>
+			<a href="formularz4.html">
+				<button class="menu">Formularz 4</button>
+			</a>
+			<a href="formularz5.html">
+				<button class="menu">Formularz 5</button>
+			</a>
+			<a href="formularz6.html">
+				<button class="menu">Formularz 6</button>
+			</a>
+		</center>
+	</header>
+	</center>
+	<center>
+		<div id="fj">
+			<h1>Formularz kontaktowy</h1>
+			<form>
+				Nazwisko:<br />
+				<input type="text" name="Nazwisko" />
+				<br>
+				Imię:<br />
+				<input type="text" name="Imie" />
+				<br /><br />
+				Wykształcenie:<br />
+				<input type="radio" name="podstawowe" checked />Podstawowe<br />
+				<input type="radio" name="srednie" />Średnie<br />
+				<input type="radio" name="wyzsze" />Wyższe<br /><br />
+				W jakim języku programujesz?<br />
+				<input type="checkbox" name="PhP">PhP<br />
+				<input type="checkbox" name="JavaScript">JavaScript<br />
+				<input type="checkbox" name="Python">Python<br>
+				<input type="checkbox" name="C++">C++<br />
+				<input type="checkbox" name="Java">Java<br /><br />
+				<input type="checkbox" name="dane_osobowe">Zgadzam się na przetwarzanie danych osobowych<br /><br />
+				Wiek:<br />
+				<select name="wiek">
+					<option selected>0-17</option>
+					<option>18-40</option>
+					<option>41-60</option>
+					<option>powyżej 60</option>
+				</select>
+				<br /><br />
+				Uwagi:<br />
+				<textarea cols="20" rows="7" placeholder="Wpisz uwagi"></textarea><br /><br />
+				<input class="button" type="submit" name="wyslij" value="Wyślij" />
+				<input class="button" type="reset" name="wyczysc" value="Wyczyść " />
+			</form>
+		</div>
+	</center>
+</body>
+</html>
